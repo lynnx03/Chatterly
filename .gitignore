@@ -1,0 +1,48 @@
+# ── Secrets ── NEVER commit! ──────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Python ────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+
+# ── Virtual environments ──────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Test / lint / type-check caches ───────────────
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ── ML / model cache ──────────────────────────────
+*.pt
+*.bin
+.cache/
+huggingface/
+
+# ── Evaluation outputs ────────────────────────────
+chatterly_evaluation.png
+chatterly_eval_results.json
+wisesight_*.txt
+
+# ── IDE / editors ─────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS junk ───────────────────────────────────────
+.DS_Store
+Thumbs.db
